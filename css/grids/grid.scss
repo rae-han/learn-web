@@ -1,0 +1,14 @@
+#body {
+  background-color: darkgray;
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 1fr 2fr;
+    background-color: black;
+
+    .item {
+      background-color: lightgray;
+    }
+  }
+}
