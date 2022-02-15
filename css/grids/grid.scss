@@ -22,7 +22,7 @@
 
   .container1 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
     
     .header {
       grid-column: 1/3;
@@ -71,6 +71,4 @@
       background: blue
     }
   }
-
-  
 }
